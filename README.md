@@ -12,15 +12,21 @@ El programa está construido para que el usuario se mueva a base de menús. (¡E
 Menú de Inicio: Al comienzo será necesario registrar al menos a un usuario, pudiendo registrar más antes de continuar. Tras el primer registro, en caso de no querer registrar más, iremos al Menú de acceso de usuarios mediante login y contraseña.
 Una vez confirmado el usuario y contraseña, se nos mostrará el Menú principal, que contiene 2 submenús: el de Usuario y el de Juegos.
 
-# Menú Usuarios                                                                 Menú Juegos
-1. Introducir nuevo usuario.                                                  1. Jugar al Ahorcado.
+# Menú Usuarios                                                                
+1. Introducir nuevo usuario.                                                  
 2. Modificar nombre.
-3. Modificar password.                                                        2. Jugar al BlackJack.
+3. Modificar password.                                                       
 4. Modificar Email.
-5. Consultar datos del usuario conectado.                                     3. Jugar al Poker Dados.
+5. Consultar datos del usuario conectado.                                     
 6. Consultar usuarios registrados y cambiar usuario.
-7. Salir al Menú Principal                                                    4. Salir al Menú Principal.
-
+7. Salir al Menú Principal
+   
+# Menú Juegos
+1. Jugar al Ahorcado.
+2. Jugar al BlackJack.
+3. Jugar al Poker Dados.
+4. Salir al Menú Principal.
+   
 # Información a tener en cuenta sobre la gestión de usuarios:
 Para el nombre y la contraseña se establece un límite de 10 caracteres.
 El email deberá cumplir con algunas de las condiciones necesarias de un email real, es decir solo podrá tener un @, este no puede ir ni al principio ni al final. Además, también controlo que al menos haya un punto y no esté situado justo delante ni detrás del @ , así como que no esté ni al final ni al principio de la cuenta de email.
